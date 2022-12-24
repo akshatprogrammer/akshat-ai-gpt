@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://akshat-ai.onrender.com', {
+    const response = await fetch('https://akshat-ai.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -117,4 +117,4 @@ form.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
         handleSubmit(e)
     }
-})
+})  
