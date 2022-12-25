@@ -393,7 +393,7 @@ nav ul li ul li a {
 }
 
 .brand {
-  position: absolute;
+  position: relative;
   align-items: center;
 
   align-items: center ;
