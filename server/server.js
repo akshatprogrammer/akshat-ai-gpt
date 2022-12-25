@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello from Akshat AI v2!'
+    message: 'Hello from Akshat AI v3!'
   })
 })
 
@@ -26,12 +26,12 @@ app.post('/', async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-      model:"text-babbage-001",
+      model:"text-davinci-003",
   prompt: `${prompt}`,
-  temperature: 0.7,
-  max_tokens:256,
+  temperature: 0,
+  max_tokens:3000,
   top_p:1,
-  frequency_penalty:0,
+  frequency_penalty:0.5,
   presence_penalty:0
     });
 
