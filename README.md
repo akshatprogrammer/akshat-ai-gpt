@@ -3,7 +3,7 @@ This is a clone of the popular ChatGPT chatbot using JavaScript. It is designed 
 
 The clone is based on the original ChatGPT codebase, but has been modified to use JavaScript instead of Python. It uses a combination of natural language processing (NLP) and machine learning (ML) techniques to generate responses that are tailored to each user's input.
 
-The clone also includes an API that allows developers to integrate it into their own applications. This makes it easy for developers to create custom chatbot experiences for their users.
+The clone also includes an API that allows developers to integrate it into their own applications. This makes it easy for developers to create custom chatbot experiences for their Users.
 
 # Tools/Tech Stack Used
 - HTML
