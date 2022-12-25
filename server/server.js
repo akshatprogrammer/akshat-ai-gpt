@@ -26,7 +26,7 @@ app.post('/', async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-      model="text-babbage-001",
+      model:"text-babbage-001",
   prompt="",
   temperature=0.7,
   max_tokens=256,
