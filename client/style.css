@@ -136,7 +136,69 @@ textarea {
   border: none;
   outline: none;
 }
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a {
+  display: flex;
+  padding: 0 20px;
+  line-height: 70px;
+  background: #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  /*
+  The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
+  */
+}
+nav ul li a:hover {
+  background: #f2f2f2;
+  color: #fb5958;
+}
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
 
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  /* Guarantees that the dropdown will display on top of any content. */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #fff;
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-mobile {
+    display: block;
+  }
+
+<<<<<<< HEAD
 nav {
   float: right;
 }
@@ -206,10 +268,13 @@ nav ul li ul li a {
     display: block;
   }
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
   nav {
     width: 100%;
     padding: 70px 0 15px;
   }
+<<<<<<< HEAD
 
   nav ul {
     display: none;
@@ -219,16 +284,30 @@ nav ul li ul li a {
     float: none;
   }
 
+=======
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
   nav ul li a {
     padding: 15px;
     line-height: 20px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
   nav ul li ul li a {
     padding-left: 30px;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -236,7 +315,10 @@ nav ul li ul li a {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
@@ -250,6 +332,7 @@ nav ul li ul li a {
   content: '';
   transition: all 300ms ease-in-out;
 }
+<<<<<<< HEAD
 
 #nav-toggle span:before {
   top: -10px;
@@ -272,6 +355,23 @@ nav ul li ul li a {
   transform: rotate(45deg);
 }
 
+=======
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
@@ -281,7 +381,10 @@ nav ul li ul li a {
     display: block !important;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 /* 
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
@@ -300,21 +403,30 @@ nav ul li ul li a {
 
 .brand {
   position: absolute;
+<<<<<<< HEAD
   align-items: center;
+=======
+  align-items: center ;
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
   float: left;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
+<<<<<<< HEAD
   transition: transform 750ms;
   will-change: transform;
 }
 
+=======
+}
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 .brand a,
 .brand a:visited {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
+<<<<<<< HEAD
 
 .brand:hover, .brand:focus {
   /* font-size: 1.6em; */
@@ -327,6 +439,8 @@ nav ul li ul li a {
   right: 155px;
 }
 
+=======
+>>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 button {
   outline: 0;
   border: 0;
