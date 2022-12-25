@@ -198,7 +198,7 @@ nav ul li ul li a {
     display: block;
   }
 
-<<<<<<< HEAD
+
 nav {
   float: right;
 }
@@ -268,13 +268,12 @@ nav ul li ul li a {
     display: block;
   }
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
   nav {
     width: 100%;
     padding: 70px 0 15px;
   }
-<<<<<<< HEAD
+
 
   nav ul {
     display: none;
@@ -284,30 +283,25 @@ nav ul li ul li a {
     float: none;
   }
 
-=======
+
   nav ul {
     display: none;
   }
   nav ul li {
     float: none;
   }
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
   nav ul li a {
     padding: 15px;
     line-height: 20px;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
   nav ul li ul li a {
     padding-left: 30px;
   }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -315,10 +309,9 @@ nav ul li ul li a {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
+
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
@@ -332,7 +325,7 @@ nav ul li ul li a {
   content: '';
   transition: all 300ms ease-in-out;
 }
-<<<<<<< HEAD
+
 
 #nav-toggle span:before {
   top: -10px;
@@ -355,7 +348,7 @@ nav ul li ul li a {
   transform: rotate(45deg);
 }
 
-=======
+
 #nav-toggle span:before {
   top: -10px;
 }
@@ -371,7 +364,7 @@ nav ul li ul li a {
 #nav-toggle.active span:before {
   transform: rotate(45deg);
 }
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
@@ -381,10 +374,8 @@ nav ul li ul li a {
     display: block !important;
   }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
 /* 
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
@@ -403,30 +394,28 @@ nav ul li ul li a {
 
 .brand {
   position: absolute;
-<<<<<<< HEAD
   align-items: center;
-=======
+
   align-items: center ;
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
   float: left;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
-<<<<<<< HEAD
+
   transition: transform 750ms;
   will-change: transform;
 }
 
-=======
-}
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
+
+
 .brand a,
 .brand a:visited {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
-<<<<<<< HEAD
+
 
 .brand:hover, .brand:focus {
   /* font-size: 1.6em; */
@@ -439,8 +428,7 @@ nav ul li ul li a {
   right: 155px;
 }
 
-=======
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
 button {
   outline: 0;
   border: 0;
