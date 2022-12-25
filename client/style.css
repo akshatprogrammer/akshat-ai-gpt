@@ -197,7 +197,7 @@ nav ul li ul li a {
   .nav-mobile {
     display: block;
   }
-
+}
 
 nav {
   float: right;
@@ -435,7 +435,6 @@ button {
   cursor: pointer;
   background: transparent;
 }
-
 form img {
   width: 30px;
   height: 30px;
