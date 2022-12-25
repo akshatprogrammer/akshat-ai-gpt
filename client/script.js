@@ -86,11 +86,8 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-<<<<<<< HEAD
-    const response = await fetch('https://akshat-ai.onre    nder.com/', {
-=======
     const response = await fetch('https://akshat-ai.onrender.com', {
->>>>>>> aa14d99e967c286ece59ee291384e38b12e39a8d
+
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
