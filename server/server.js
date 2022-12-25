@@ -27,12 +27,12 @@ app.post('/', async (req, res) => {
 
     const response = await openai.createCompletion({
       model:"text-babbage-001",
-  prompt="",
-  temperature=0.7,
-  max_tokens=256,
-  top_p=1,
-  frequency_penalty=0,
-  presence_penalty=0
+  prompt: `${prompt}`,
+  temperature: 0.7,
+  max_tokens:256,
+  top_p:1,
+  frequency_penalty:0,
+  presence_penalty:0
     });
 
     res.status(200).send({
